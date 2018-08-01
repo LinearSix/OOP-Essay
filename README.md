@@ -1,30 +1,28 @@
-## Four pillars of OOP
+# Object Oriented Programming
 
-### 1. Abstraction
+Object Oriented programming can roughly be descrbed using four key concepts, Inheritance, Encapsulation, apolymorphism, and Abstraction. Within these concept lie object oriented tools and buliding blocks which create and reinforce the key concepts.
 
-The practice of showing only essential features of an 
-application and hiding the details.
+## 1. Abstraction
 
-IE: You only see the buttons of a emote control. You don't see the inner workings.
+Abstraction is the practice of showing only essential features of an application and hiding the details and inner workings (Like seeing the buttons of a remote control, but not the wires and circuit boards).
+The tools and that power this practice are the Classes, Objects, and Interface. The way these tools and methods are implemented are with the other three concepts of Inheritance, Encapsulation, and Polymorphism.
 
-In terms of "Class", this means combining functions and methods so that the least amount of input is required from the user.
+## 2. Inheritance
 
-### 2. Inheritance
+### Classes
 
-A way of reusing code through "classes".
-The two classes are the "Base Class" and the "Derived Class".
-A derived class can use all the functions which are defined in the base class.
+The concept of iheritance is a means of reusing code. It manifests itself through the Classes. The Classes contain the blueprint from which the application is created. Classes are organized in a hierarchy. The basic idea is that the more peripheral "Derived Classes" can inherit the attributes and methods contained in a "Base Class". 
 
-Inheritance is one of the core concepts of object-oriented programming (OOP) languages. It is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+### Objects
+
+Objects are essentially software bundles containing methods for observing, collecting, and modifying the state of data contained within. Objects belong to Classes.
 
 ### 3. Encapsulation
 
-A trait of "Class". Functions, variables, methods, etc. are encapsulated in classes.
-
-Abstraction and encapsulation are complementary concepts: abstraction focuses on the observable behavior of an object... encapsulation focuses upon the implementation that gives rise to this behavior... encapsulation is most often achieved through information hiding, which is the process of hiding all of the secrets of object that do not contribute to its essential characteristics.
+Encapsulation is another trait of "Class". It focuses on the implementation that gives rise to Abstraction through information hiding, which is the process of concealing the parts of an object that do not contribute to its essential characteristics. Functions, variables, and methods can be encapsulated in Classes.
 
 ### 4. Ploymorphism
 
-Allows the dedifining or repurposing of functions, so that they can handle many types and quantities of arguments.
+All of these key concepts feed each other. In polymorphism, this involves the redefining or repurposing of functions, so that they can handle many types and quantities of arguments.
 
-objects of different types can be accessed through the same interface. 
+Implementing these concepts, objects of different types can be accessed through the same interface. 
